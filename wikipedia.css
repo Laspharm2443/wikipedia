@@ -1,0 +1,468 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 500px;
+    width: 500px;
+    /* background-color: greenyellow; */
+    position: relative;
+}
+.image{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.wiki{
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+}
+.china{
+    position: absolute;
+    top: 15%;
+    right: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 15px;
+}
+.china:hover{
+    background-color: lightgrey;
+}
+.china-link{
+    color: #3666c2;
+    text-decoration: none;
+}
+.china-link:hover{
+    text-decoration: underline;
+}
+.china-link2{
+    color: #9598a2;
+    font-size: 15px;
+    font-weight: 600;
+}
+.dutch{
+    position: absolute;
+    top: 30%;
+    right: -1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 15px;
+}
+.dutch:hover{
+    background-color: lightgray;
+}
+.dutch-link{
+    color: #3666c2;
+    text-decoration: none;
+}
+.dutch-link:hover{
+    text-decoration: underline;
+}
+.dutch-link2{
+    color: #9598a2;
+    font-size: 15px;
+    font-weight: 600;
+}
+.spanish{
+    position: absolute;
+    top: 45%;
+    right: -4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 15px;
+}
+.spanish:hover{
+    background-color: lightgray;
+}
+.spanish-link{
+    color: #3666c2;
+    text-decoration: none;
+}
+.spanish-link:hover{
+    text-decoration: underline;
+}
+.spanish-link2{
+    color: #9598a2;
+    font-size: 15px;
+    font-weight: 600;
+}
+.korea{
+    position: absolute;
+    bottom: 32%;
+    right: -3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 15px;
+}
+.korea:hover{
+    background-color: lightgrey;
+}
+.korea-link{
+    color: #3666c2;
+    text-decoration: none;
+}
+.korea-link:hover{
+    text-decoration: underline;
+}
+.korea-link2{
+    color: #9598a2;
+    font-size: 15px;
+    font-weight: 600;
+}
+.poland{
+    position: absolute;
+    bottom: 20%;
+    right: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 15px;
+}
+.poland:hover{
+    background-color: lightgrey;
+}
+.poland-link{
+    color: #3666c2;
+    text-decoration: none;
+}
+.poland-link:hover{
+    text-decoration: underline;
+}
+.poland-link2{
+    color: #9598a2;
+    font-size: 15px;
+    font-weight: 600;
+}
+.english{
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 15px;
+}
+.english:hover{
+    background-color: lightgray;
+}
+.english-link{
+    color: #3666c2;
+    text-decoration: none;
+}
+.english-link:hover{
+    text-decoration: underline;
+}
+.english-link2{
+    color: #9598a2;
+    font-size: 15px;
+    font-weight: 600;
+}
+.russia{
+    position: absolute;
+    top: 30%;
+    left: -1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 15px;
+}
+.russia:hover{
+    background-color: lightgray;
+}
+.russia-link{
+    color: #3666c2;
+    text-decoration: none;
+}
+.russia-link:hover{
+    text-decoration: underline;
+}
+.russia-link2{
+    color: #9598a2;
+    font-size: 15px;
+    font-weight: 600;
+}
+.france{
+    position: absolute;
+    bottom: 45%;
+    left: -4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 15px;
+}
+.france:hover{
+    background-color: lightgray;
+}
+.france-link{
+    color: #3666c2;
+    text-decoration: none;
+}
+.france-link:hover{
+    text-decoration: underline;
+}
+.france-link2{
+    color: #9598a2;
+    font-size: 15px;
+    font-weight: 600;
+}
+.italy{
+    position: absolute;
+    bottom: 32%;
+    left: -3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 15px;
+}
+.italy:hover{
+    background-color: lightgray;
+}
+.italy-link{
+    color: #3666c2;
+    text-decoration: none;
+}
+.italy-link:hover{
+    text-decoration: underline;
+}
+.italy-link2{
+    color: #9598a2;
+    font-size: 15px;
+    font-weight: 600;
+}
+.arab{
+    position: absolute;
+    bottom: 20%;
+    left: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 15px;
+}
+.arab:hover{
+    background-color: lightgray;
+}
+.arab-link{
+    color: #3666c2;
+    text-decoration: none;
+}
+.arab-link:hover{
+    text-decoration: underline;
+}
+.arab-link2{
+    display: flex;
+    gap: 3px;
+    color: #9598a2;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btm-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+.bottom{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 40px;
+    width: 410Px;
+    border: 1px solid grey;
+    padding: 0px 10px;
+}
+.btn{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 8px;
+}
+.en{
+    color: grey;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+.down{
+    color: grey;
+    font-size: 12px;
+}
+.input-en{
+    border: none;
+    outline: none;
+    padding-right: 180px;
+}
+.glass{
+    height: 40px;
+    width: 50px;
+    background-color: #3266cc;
+    align-content: center;
+    padding-left: 15px;
+    color: white;
+}
+
+@media screen and (max-width: 430px) {
+    .img-wiki{
+        width: 200px;
+    }
+    .china-link2{
+        font-size: 13px;
+    }
+    .dutch-link2{
+        font-size: 13px;
+    }
+    .spanish-link2{
+        font-size: 13px;
+    }
+    .korea-link2{
+        font-size: 13px;
+    }
+    .poland-link2{
+        font-size: 13px;
+    }
+    .dutch-link2{
+        font-size: 13px;
+    }
+    .russia-link2{
+        font-size: 13px;
+    }
+    .france-link2{
+        font-size: 13px;
+    }
+    .english-link2{
+        font-size: 13px;
+    }
+    .italy-link2{
+        font-size: 13px;
+    }
+    .bottom{
+        width: 330px;
+    }
+    .input-en{
+        padding-right: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 380px) {
+    .img-wiki{
+        width: 200px;
+    }
+    .china-link2{
+        font-size: 10px;
+    }
+    .dutch-link2{
+        font-size: 10px;
+    }
+    .spanish-link2{
+        font-size: 10px;
+    }
+    .korea-link2{
+        font-size: 10px;
+    }
+    .poland-link2{
+        font-size: 10px;
+    }
+    .dutch-link2{
+        font-size: 10px;
+    }
+    .russia-link2{
+        font-size: 10px;
+    }
+    .france-link2{
+        font-size: 10px;
+    }
+    .english-link2{
+        font-size: 10px;
+    }
+    .italy-link2{
+        font-size: 10px;
+    }
+    .bottom{
+        width: 280px;
+    }
+    .input-en{
+        padding-right: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 325px) {
+    .img-wiki{
+        height: 200px;
+        width: 150px;
+    }
+    .china{
+        top: 18%;
+    }
+    .english{
+        top: 18%;
+    }
+    .china-link2{
+        font-size: 10px;
+    }
+    .dutch-link2{
+        font-size: 10px;
+    }
+    .spanish-link2{
+        font-size: 9px;
+    }
+    .korea-link2{
+        font-size: 10px;
+    }
+    .poland-link2{
+        font-size: 10px;
+    }
+    .dutch-link2{
+        font-size: 10px;
+    }
+    .russia-link2{
+        font-size: 10px;
+    }
+    .france-link2{
+        font-size: 10px;
+    }
+    .english-link2{
+        font-size: 10px;
+    }
+    .italy-link2{
+        font-size: 10px;
+    }
+    .bottom{
+        width: 220px;
+    }
+    .input-en{
+        padding-right: 5px;
+    }
+    
+}
