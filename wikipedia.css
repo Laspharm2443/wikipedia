@@ -464,5 +464,12 @@ body{
     .input-en{
         padding-right: 5px;
     }
+    .en{
+        font-size: 10px;
+    }
+    .glass{
+        font-size: 10px;
+        font-weight: 600;
+    }
     
 }
